@@ -1,0 +1,32 @@
+inputs_def:
+  - handle: df
+    description: Input
+    json_schema:
+      contentMediaType: oomol/var
+  - handle: column_name
+    json_schema:
+      type: string
+  - handle: min_threshold
+    json_schema:
+      type: number
+  - handle: max_threshold
+    json_schema:
+      type: number
+  - handle: preview
+    json_schema:
+      type: boolean
+    value: false
+outputs_def:
+  - handle: df
+    description: Output
+    json_schema:
+      contentMediaType: oomol/var
+ui:
+  default_width: 450
+executor:
+  name: python
+  options:
+    spawn: false
+    entry: __init__.py
+title: Column Number Filter
+icon: ":fa6-solid:filter:"

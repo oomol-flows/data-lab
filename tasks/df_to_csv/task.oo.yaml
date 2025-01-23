@@ -1,0 +1,34 @@
+inputs_def:
+  - handle: df
+    description: Input
+    json_schema:
+      contentMediaType: oomol/var
+  - handle: csv_address
+    json_schema:
+      type: string
+      ui:widget: dir
+    nullable: true
+  - handle: name
+    json_schema:
+      type: string
+    nullable: true
+  - handle: input1
+    json_schema:
+      type: string
+      format: date-time
+    nullable: true
+outputs_def:
+  - handle: csv
+    description: Output
+    json_schema:
+      type: string
+      ui:widget: file
+ui:
+  default_width: 450
+executor:
+  name: python
+  options:
+    spawn: false
+    entry: __init__.py
+title: df_to_csv
+icon: ":fa6-solid:floppy-disk:"

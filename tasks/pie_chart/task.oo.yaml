@@ -1,0 +1,24 @@
+inputs_def:
+  - handle: df
+    json_schema:
+      contentMediaType: oomol/var
+  - handle: chart_title
+    description: Input
+    json_schema:
+      type: string
+    value:
+    nullable: true
+outputs_def:
+  - handle: df
+    description: Output
+    json_schema:
+      contentMediaType: oomol/var
+ui:
+  default_width: 450
+executor:
+  name: python
+  options:
+    spawn: false
+    entry: __init__.py
+title: Pie Chart
+icon: ":fa6-solid:chart-pie:"

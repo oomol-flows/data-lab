@@ -1,0 +1,28 @@
+inputs_def:
+  - handle: df
+    json_schema:
+      contentMediaType: oomol/var
+  - handle: column_name
+    description: Input
+    json_schema:
+      type: string
+    value:
+    nullable: true
+  - handle: preview
+    json_schema:
+      type: boolean
+    value: false
+outputs_def:
+  - handle: df
+    description: Output
+    json_schema:
+      contentMediaType: oomol/var
+ui:
+  default_width: 450
+executor:
+  name: python
+  options:
+    spawn: false
+    entry: __init__.py
+title: Delete  Column By Name
+icon: ":fa6-solid:delete-left:"

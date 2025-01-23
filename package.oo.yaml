@@ -1,0 +1,15 @@
+icon: ./icon.png
+scripts:
+  # Script executed when the container is first loaded
+  # eg: bootstrap: pip install pandas
+  bootstrap: |
+    pnpm install --force && pip install -r requirements.txt
+  dependencies:
+    tools: 0.0.3
+dependencies:
+  {}
+name: data-lab
+version: 0.0.1
+displayName: Data Lab
+description: Interactive data visualization python library
+releaseNotes: update preview

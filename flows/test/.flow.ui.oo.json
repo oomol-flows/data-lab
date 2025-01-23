@@ -1,0 +1,31 @@
+{
+  "nodes": {
+    "csv_to_df#1": {
+      "contentWidth": 450,
+      "rfNode": {
+        "position": {
+          "x": 0,
+          "y": 366.5
+        }
+      }
+    },
+    "df_preview#1": {
+      "contentWidth": 450,
+      "rfNode": {
+        "position": {
+          "x": 514,
+          "y": 366.5
+        }
+      }
+    },
+    "column_number_filter#1": {
+      "contentWidth": 465.97061434717637,
+      "rfNode": {
+        "position": {
+          "x": 1093.9217954233743,
+          "y": 230.6360721444218
+        }
+      }
+    }
+  }
+}

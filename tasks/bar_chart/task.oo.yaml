@@ -1,0 +1,31 @@
+inputs_def:
+  - handle: df
+    json_schema:
+      contentMediaType: oomol/var
+  - handle: chart_title
+    json_schema:
+      type: string
+    value:
+    nullable: true
+outputs_def:
+  - handle: df
+    description: Output
+    json_schema:
+      contentMediaType: oomol/var
+      type:
+        - string
+        - number
+        - integer
+        - boolean
+        - object
+        - array
+        - "null"
+icon: ":fa6-solid:chart-column:currentColor:"
+ui:
+  default_width: 530
+executor:
+  name: python
+  options:
+    spawn: false
+    entry: main.py
+title: Bar Chart
