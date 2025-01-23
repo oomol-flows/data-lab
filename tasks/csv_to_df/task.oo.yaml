@@ -16,5 +16,5 @@ executor:
   options:
     spawn: false
     entry: __init__.py
-title: csv_to_df
+title: Csv To Df
 icon: ":fa6-solid:file-import:"

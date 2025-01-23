@@ -2,6 +2,18 @@ inputs_def:
   - handle: df
     json_schema:
       contentMediaType: oomol/var
+  - handle: x_column
+    json_schema:
+      type: string
+    nullable: true
+    value:
+  - handle: y_columns
+    json_schema:
+      type: array
+      items:
+        type: string
+    value:
+    nullable: true
   - handle: chart_title
     json_schema:
       type: string

@@ -12,11 +12,6 @@ inputs_def:
     json_schema:
       type: string
     nullable: true
-  - handle: input1
-    json_schema:
-      type: string
-      format: date-time
-    nullable: true
 outputs_def:
   - handle: csv
     description: Output
@@ -30,5 +25,5 @@ executor:
   options:
     spawn: false
     entry: __init__.py
-title: df_to_csv
+title: Df To Csv
 icon: ":fa6-solid:floppy-disk:"

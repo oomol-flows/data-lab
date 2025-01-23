@@ -6,12 +6,19 @@ import pandas as pd
 
 def main(params: dict, context: Context):
     df = params.get("df")
+    assert df is not None
     title = params.get("chart_title")
+    label = params.get("label")
+    value = params.get("value")
+
     if title is None:
         title = "Pie Chart"
+    if label is None:
+        label = df.columns[0]
+    if value is None:
+        value = df.columns[1]
 
-    # 使用 Plotly Express 创建饼图
-    fig = px.pie(df, values='Values', names='Labels', title=title)
+    fig = px.pie(df, values=value, names=label, title=title)
 
     fig.show()
 

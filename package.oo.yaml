@@ -9,7 +9,9 @@ scripts:
 dependencies:
   {}
 name: data-lab
-version: 0.0.1
+version: 0.0.3
 displayName: Data Lab
-description: Interactive data visualization python library
-releaseNotes: update preview
+description: Data analysis package based on open source libraries such as python
+  library pandas plotly.
+releaseNotes: update bar chart
+repository: https://github.com/oomol-flows/data-lab
