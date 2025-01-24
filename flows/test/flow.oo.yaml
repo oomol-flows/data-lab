@@ -4,7 +4,6 @@ nodes:
     node_id: csv_to_df#1
     inputs_from:
       - handle: csv
-        value: /oomol-driver/oomol-storage/data.csv
   - task: self::df_preview
     title: "DF Preview #1"
     node_id: df_preview#1
@@ -43,50 +42,3 @@ nodes:
         value:
       - handle: value
         value:
-  - task: self::stacked_area_chart
-    title: "Stacked Area Chart #2"
-    node_id: stacked_area_chart#2
-    inputs_from:
-      - handle: df
-        from_node:
-          - node_id: +python#1
-            output_handle: df
-      - handle: x_column
-        value: Year
-      - handle: y_columns
-        value:
-          - Category A
-          - Category B
-      - handle: chart_title
-        value:
-  - task:
-      ui:
-        default_width: 450
-      inputs_def:
-        - handle: input
-          description: Input
-          json_schema:
-            type: string
-      outputs_def:
-        - handle: df
-          description: Output
-          json_schema:
-            contentMediaType: oomol/var
-      executor:
-        name: python
-        options:
-          entry: scriptlets/+python#1.py
-    title: "Python #1"
-    icon: ":logos:python:"
-    node_id: +python#1
-    inputs_from:
-      - handle: input
-        value: ""
-  - task: self::df_preview
-    title: "DF Preview #2"
-    node_id: df_preview#2
-    inputs_from:
-      - handle: df
-        from_node:
-          - node_id: +python#1
-            output_handle: df

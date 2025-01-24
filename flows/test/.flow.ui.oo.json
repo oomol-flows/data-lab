@@ -5,7 +5,7 @@
       "rfNode": {
         "position": {
           "x": 0,
-          "y": 536.75
+          "y": 161
         }
       }
     },
@@ -13,8 +13,8 @@
       "contentWidth": 445.38095260366526,
       "rfNode": {
         "position": {
-          "x": 307.7225959727249,
-          "y": 962.6376976869598
+          "x": 416.5,
+          "y": 0
         }
       }
     },
@@ -22,8 +22,8 @@
       "contentWidth": 450,
       "rfNode": {
         "position": {
-          "x": 935.5771710331904,
-          "y": 255.30129017463514
+          "x": 414,
+          "y": 268
         }
       }
     },
@@ -31,44 +31,8 @@
       "contentWidth": 450,
       "rfNode": {
         "position": {
-          "x": 1605,
-          "y": 510
-        }
-      }
-    },
-    "stacked_area_chart#2": {
-      "contentWidth": 718.8137178529867,
-      "rfNode": {
-        "position": {
-          "x": 1095,
-          "y": 1350
-        }
-      },
-      "sections": {
-        "inputs": {
-          "collapsed": {
-            "y_columns": {
-              "[]": false
-            }
-          }
-        }
-      }
-    },
-    "+python#1": {
-      "contentWidth": 450,
-      "rfNode": {
-        "position": {
-          "x": 300,
-          "y": 1860
-        }
-      }
-    },
-    "df_preview#2": {
-      "contentWidth": 800.3168679512853,
-      "rfNode": {
-        "position": {
-          "x": 1095,
-          "y": 2250
+          "x": 928,
+          "y": 281.5
         }
       }
     }
