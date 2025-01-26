@@ -19,6 +19,7 @@ def main(params: dict, context: Context):
         value = df.columns[1]
 
     fig = px.pie(df, values=value, names=label, title=title)
+    fig.update_layout(title_text=title, title_x=0.5)
 
     fig.show()
 

@@ -1,0 +1,94 @@
+{
+  "nodes": {
+    "csv_to_df#1": {
+      "contentWidth": 350,
+      "rfNode": {
+        "position": {
+          "x": 514,
+          "y": 732.5
+        }
+      }
+    },
+    "df_preview#1": {
+      "contentWidth": 445.38095260366526,
+      "rfNode": {
+        "position": {
+          "x": 930.5,
+          "y": 70.5
+        }
+      }
+    },
+    "column_number_filter#1": {
+      "contentWidth": 450,
+      "rfNode": {
+        "position": {
+          "x": 928,
+          "y": 839.5
+        }
+      }
+    },
+    "pie_chart#1": {
+      "contentWidth": 450,
+      "rfNode": {
+        "position": {
+          "x": 1591,
+          "y": 0
+        }
+      }
+    },
+    "df-to-excel#2": {
+      "contentWidth": 450,
+      "rfNode": {
+        "position": {
+          "x": 2382,
+          "y": 265
+        }
+      }
+    },
+    "line_chart#1": {
+      "contentWidth": 747.6784046823202,
+      "rfNode": {
+        "position": {
+          "x": 1442,
+          "y": 852
+        }
+      }
+    },
+    "column_number_sort#2": {
+      "contentWidth": 614.0919314798973,
+      "rfNode": {
+        "position": {
+          "x": 1509,
+          "y": 1704
+        }
+      }
+    },
+    "df_preview#2": {
+      "contentWidth": 705.9615097253007,
+      "rfNode": {
+        "position": {
+          "x": 2254,
+          "y": 1744.5
+        }
+      }
+    },
+    "url_to_path#1": {
+      "contentWidth": 450,
+      "rfNode": {
+        "position": {
+          "x": 0,
+          "y": 732.5
+        }
+      }
+    },
+    "+typescript#1": {
+      "contentWidth": 450,
+      "rfNode": {
+        "position": {
+          "x": 3270,
+          "y": 1050
+        }
+      }
+    }
+  }
+}

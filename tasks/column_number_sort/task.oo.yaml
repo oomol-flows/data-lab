@@ -1,0 +1,36 @@
+inputs_def:
+  - handle: df
+    description: Input
+    json_schema:
+      contentMediaType: oomol/var
+  - handle: column_name
+    json_schema:
+      type: string
+  - handle: sort_type
+    json_schema:
+      enum:
+        - Ascending
+        - Descending
+      ui:options:
+        labels:
+          - Ascending
+          - Descending
+    value: Ascending
+  - handle: preview
+    json_schema:
+      type: boolean
+    value: false
+outputs_def:
+  - handle: df
+    description: Output
+    json_schema:
+      contentMediaType: oomol/var
+ui:
+  default_width: 450
+executor:
+  name: python
+  options:
+    spawn: false
+    entry: __init__.py
+title: Column number sort
+icon: ":fa6-solid:arrow-down-wide-short:"

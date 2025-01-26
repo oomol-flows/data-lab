@@ -24,6 +24,7 @@ def main(params: dict, context: Context):
         title=title,
         markers=True,
     )
+    fig.update_layout(title_text=title, title_x=0.5)
 
     fig.show()
 

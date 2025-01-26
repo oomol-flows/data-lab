@@ -20,7 +20,7 @@ def main(params: dict, context: Context):
     fig = px.bar(
         df,
         x=x_column,
-        y=x_column,
+        y=y_column,
         title=title,
         color=x_column,
         color_discrete_sequence=px.colors.qualitative.Plotly,

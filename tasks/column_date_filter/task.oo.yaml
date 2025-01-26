@@ -1,0 +1,30 @@
+inputs_def:
+  - handle: df
+    description: Input
+    json_schema:
+      contentMediaType: oomol/var
+  - handle: name
+    json_schema:
+      type: string
+  - handle: start_date
+    json_schema:
+      type: string
+      format: date-time
+  - handle: end_date
+    json_schema:
+      type: string
+      format: date-time
+outputs_def:
+  - handle: df
+    description: Output
+    json_schema:
+      contentMediaType: oomol/var
+ui:
+  default_width: 450
+executor:
+  name: python
+  options:
+    spawn: false
+    entry: __init__.py
+title: Column date filter
+icon: ":fa6-solid:calendar-days:"

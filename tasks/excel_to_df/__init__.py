@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def main(params: dict, context: Context):
-    csv = params.get("csv")
-    assert csv is not None
-    df = pd.read_csv(csv)
+    xlsx = params.get("xlsx")
+    assert xlsx is not None
+    df = pd.read_excel(xlsx)
     return {"df": df}
