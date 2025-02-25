@@ -99,26 +99,3 @@ nodes:
     inputs_from:
       - handle: url
         value: https://oomol-flows.oss-cn-hangzhou.aliyuncs.com/data_oomol.csv
-  - task:
-      ui:
-        default_width: 450
-      inputs_def:
-        - handle: input
-          description: Input
-          json_schema:
-            type: string
-      outputs_def:
-        - handle: output
-          description: Output
-          json_schema:
-            type: string
-      executor:
-        name: nodejs
-        options:
-          entry: scriptlets/+typescript#1.ts
-    title: "TypeScript #1"
-    icon: ":skill-icons:typescript:"
-    node_id: +typescript#1
-  - task: self::dasdasd
-    title: "dasdasd #1"
-    node_id: dasdasd#1
