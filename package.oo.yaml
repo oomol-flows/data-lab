@@ -13,5 +13,5 @@ version: 0.0.7
 displayName: Data Lab
 description: Data analysis package based on open source libraries such as python
   library pandas plotly.
-releaseNotes: update docs
+releaseNotes: git test
 repository: https://github.com/oomol-flows/data-lab
