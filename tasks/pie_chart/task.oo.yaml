@@ -31,4 +31,4 @@ executor:
     spawn: false
     entry: __init__.py
 title: Pie Chart
-icon: ":fa6-solid:chart-pie:"
+icon: ":carbon:chart-pie:"

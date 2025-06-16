@@ -17,4 +17,4 @@ executor:
     spawn: false
     entry: __init__.py
 title: Excel to df
-icon: ":fa6-solid:right-to-bracket:"
+icon: ":carbon:port-input:"

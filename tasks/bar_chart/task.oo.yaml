@@ -30,7 +30,7 @@ outputs_def:
         - object
         - array
         - "null"
-icon: ":fa6-solid:chart-column:currentColor:"
+icon: ":carbon:chart-cluster-bar:"
 ui:
   default_width: 530
 executor:

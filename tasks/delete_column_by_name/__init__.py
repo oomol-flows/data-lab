@@ -1,5 +1,15 @@
 from oocana import Context
 
+#region generated meta
+import typing
+class Inputs(typing.TypedDict):
+    df: typing.Any
+    preview: bool
+    column_name: str
+class Outputs(typing.TypedDict):
+    df: typing.Any
+#endregion
+
 
 def main(params: dict, context: Context):
 
@@ -13,4 +23,5 @@ def main(params: dict, context: Context):
     if preview is True:
         context.preview(new_df)
     return {"df": new_df}
+
 

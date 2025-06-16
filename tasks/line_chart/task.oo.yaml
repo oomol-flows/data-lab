@@ -31,4 +31,4 @@ executor:
     spawn: false
     entry: __init__.py
 title: Line Chart
-icon: ":fa6-solid:chart-line:"
+icon: ":carbon:chart-line-data:"

@@ -16,4 +16,4 @@ executor:
     spawn: false
     entry: __init__.py
 title: DF Preview
-icon: ":fa6-solid:table-cells-large:"
+icon: ":carbon:table-split:"

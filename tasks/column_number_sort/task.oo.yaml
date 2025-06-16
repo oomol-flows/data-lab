@@ -33,4 +33,4 @@ executor:
     spawn: false
     entry: __init__.py
 title: Column number sort
-icon: ":fa6-solid:arrow-down-wide-short:"
+icon: ":carbon:sort-descending:"

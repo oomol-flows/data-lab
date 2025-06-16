@@ -53,14 +53,6 @@
         }
       }
     },
-    "delete _column_by_name#2": {
-      "rfNode": {
-        "position": {
-          "x": 529,
-          "y": 1466
-        }
-      }
-    },
     "csv_to_df#2": {
       "rfNode": {
         "position": {
@@ -79,11 +71,16 @@
       }
     },
     "+python#1": {
-      "contentWidth": 450,
+      "contentWidth": 726.0366973562445,
       "rfNode": {
         "position": {
-          "x": 2250,
-          "y": 1110
+          "x": 688.0502906175518,
+          "y": 1760.0521647185305
+        }
+      },
+      "sections": {
+        "scriptlet": {
+          "cardCollapsed": true
         }
       }
     }

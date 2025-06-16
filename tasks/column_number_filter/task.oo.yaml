@@ -29,4 +29,4 @@ executor:
     spawn: false
     entry: __init__.py
 title: Column Number Filter
-icon: ":fa6-solid:filter:"
+icon: ":carbon:filter:"
